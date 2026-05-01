@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CARD -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:elevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Form Pendaftaran"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etNama"
+                android:hint="Nama lengkap"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:hint="Email"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etNoHp"
+                android:hint="Nomor HP"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbLaki"
+                    android:text="Laki-laki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/rbPerempuan"
+                    android:text="Perempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinnerSeminar"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbSetuju"
+                android:text="Saya menyetujui data"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2196F3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

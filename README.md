@@ -57,17 +57,8 @@ git clone https://github.com/username/SeminarApp.git
 
 Klik atau tambahkan link video demo aplikasi di bawah ini:
 
-👉 [https://youtube.com/atau-link-video-kamu](https://youtube.com/atau-link-video-kamu)
+👉 [ https://youtu.be/T_sBo_5Wb60 ]
 
-*(Silakan ganti dengan link video tugas kamu)*
-
----
-
-## 📸 Tampilan Aplikasi
-
-*(Tambahkan screenshot aplikasi di sini agar lebih menarik dan jelas)*
-
----
 
 ## 📌 Catatan
 
